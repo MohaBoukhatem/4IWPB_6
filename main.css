@@ -311,6 +311,7 @@ header ol li:hover a {
 .nav_bar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: auto;
     position: relative;
     padding: 0 15px;
