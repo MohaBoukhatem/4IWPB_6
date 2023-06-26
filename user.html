@@ -2,280 +2,262 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="media/favicon-32x32.png">
-    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="main.css">
-    <title>Profile</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="media/favicon-32x32.png">
+  <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" href="main.css">
+  <title>Profile</title>
 </head>
 
 <body>
 
-    <!-- BEGIN wrapper -->
-    <div class="container" style="margin-top: 50px;">
-      <nav class="nav_bar" style="max-width: 1020px; margin-bottom: 20px;">
+  <!-- BEGIN wrapper -->
+  <div class="container" style="margin-top: 50px;">
+    <nav class="nav_bar" style="max-width: 1020px; margin-bottom: 20px;">
 
-        <div style="display: flex;">
-            <a href="#" class="logo">
-                <img src="media/logo.png" alt="">
-            </a>
+      <div style="display: flex;">
+        <a href="#" class="logo">
+          <img src="media/logo.png" alt="">
+        </a>
+      </div>
+      <div class="meteo">
+        <ul>
+          <li class="meteo__block">
+            <img src="media/meteo1.png" alt="meteo" style="height: 80px !important;">
+          </li>
+          <li class="meteo__block meteo__block--now">
+            <span class="meteo__block__date">En ce moment</span>
+            <!-- <span class="meteo__block__icon meteo__block__icon--TJ10" title="light rain">light rain</span> -->
+            <span class="meteo__block__icon material-symbols-outlined">thunderstorm</span>
+            <span class="meteo__block__temp">23&nbsp;<span>°C</span></span>
+          </li>
+          <li class="meteo__block2">
+            <span class="meteo__block__date"></span>
+            <!-- <span class="meteo__block__icon meteo__block__icon--TJ4" title="overcast clouds">overcast clouds</span> -->
+            <span class="material-symbols-outlined">cloudy_snowing</span>
+            <span class="meteo__block__temp2">27&nbsp;<span>°C</span></span>
+          </li>
+          <li class="meteo__block2">
+            <span class="meteo__block__date"></span>
+            <!-- <span class="meteo__block__icon meteo__block__icon--TJ4" title="overcast clouds">overcast clouds</span> -->
+            <span class="material-symbols-outlined">rainy</span>
+            <span class="meteo__block__temp2">21&nbsp;<span>°C</span></span>
+          </li>
+          <li class="meteo__block2">
+            <span class="meteo__block__date"></span>
+            <!-- <span class="meteo__block__icon meteo__block__icon--TJ4" title="overcast clouds">overcast clouds</span> -->
+            <span class="material-symbols-outlined">thunderstorm</span>
+            <span class="meteo__block__temp2">19&nbsp;<span>°C</span></span>
+          </li>
+        </ul>
+        <div class="alert">
+          <span class="material-symbols-outlined">campaign</span>
+          <span>Alertez-nous !!</span>
         </div>
-        <div class="meteo">
-            <ul>
-                <li class="meteo__block">
-                    <img src="media/meteo1.png" alt="meteo" style="height: 80px !important;">
-                </li>
-                <li class="meteo__block meteo__block--now">
-                    <span class="meteo__block__date">En ce moment</span>
-                    <!-- <span class="meteo__block__icon meteo__block__icon--TJ10" title="light rain">light rain</span> -->
-                    <span class="meteo__block__icon material-symbols-outlined">thunderstorm</span>
-                    <span class="meteo__block__temp">23&nbsp;<span>°C</span></span>
-                </li>
-                <li class="meteo__block2">
-                    <span class="meteo__block__date"></span>
-                    <!-- <span class="meteo__block__icon meteo__block__icon--TJ4" title="overcast clouds">overcast clouds</span> -->
-                    <span class="material-symbols-outlined">cloudy_snowing</span>                        
-                    <span class="meteo__block__temp2">27&nbsp;<span>°C</span></span>
-                </li>
-                <li class="meteo__block2">
-                    <span class="meteo__block__date"></span>
-                    <!-- <span class="meteo__block__icon meteo__block__icon--TJ4" title="overcast clouds">overcast clouds</span> -->
-                    <span class="material-symbols-outlined">rainy</span>
-                    <span class="meteo__block__temp2">21&nbsp;<span>°C</span></span>
-                </li>
-                <li class="meteo__block2">
-                    <span class="meteo__block__date"></span>
-                    <!-- <span class="meteo__block__icon meteo__block__icon--TJ4" title="overcast clouds">overcast clouds</span> -->
-                    <span class="material-symbols-outlined">thunderstorm</span>
-                    <span class="meteo__block__temp2">19&nbsp;<span>°C</span></span>
-                </li>
-            </ul>
-            <div class="alert">
-                <span class="material-symbols-outlined">campaign</span>
-                <span>Alertez-nous !!</span>
-            </div>
-        </div>
-        
+      </div>
+
     </nav>
     <!-- BEGIN header -->
     <header>
 
-        <nav class="second_nav">
-            <ol>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="#">BX1 Radio</a></li>
-                <li><a href="#">Direct TV</a></li>
-                <li><a href="#">Dernier JT</a></li>
-                <li class="active"><a href="#">Agenda</a></li>
-            </ol>
-            <div class="social_media_header">
-                <a href="#">
-                    <iconify-icon class="twitter" icon="akar-icons:twitter-fill"></iconify-icon>
-                </a>
-                <a href="#">
-                    <iconify-icon class="facebook" icon="akar-icons:facebook-fill"></iconify-icon>
-                </a>
-                <a href="#">
-                    <iconify-icon class="youtube" icon="akar-icons:youtube-fill"></iconify-icon>
-                </a>
-                <a href="#">
-                    <iconify-icon class="instagram" icon="akar-icons:instagram-fill"></iconify-icon>
+      <nav class="second_nav">
+        <ol>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="#">BX1 Radio</a></li>
+          <li><a href="#">Direct TV</a></li>
+          <li><a href="#">Dernier JT</a></li>
+          <li class="active"><a href="#">Agenda</a></li>
+        </ol>
+        <div class="social_media_header">
+          <a href="#">
+            <iconify-icon icon="akar-icons:twitter-fill"></iconify-icon>
+          </a>
+          <a href="#">
+            <iconify-icon icon="akar-icons:facebook-fill"></iconify-icon>
+          </a>
+          <a href="#">
+            <iconify-icon icon="akar-icons:youtube-fill"></iconify-icon>
+          </a>
+          <a href="#">
+            <iconify-icon icon="akar-icons:instagram-fill"></iconify-icon>
 
-                </a>
-                <a href="user.html">
-                    <span class="material-symbols-outlined">
-                        person
-                    </span>
-                </a>
-
-            </div>
-        </nav>
-
-    </header>
-        <!-- END header -->
-        
-        
-        <div class="main_wrapper">
-            
-            <!-- BEGIN content -->
-            <div class="form_container">
-              <div class="my_profile">Mon Profile</div>
-              <div class="user_content">
-                <form action="#">
-                  <div class="user-infos">
-                    <div class="user-field">
-                      <span class="user-field-details">Email</span>
-                      <input type="text" placeholder="Entrez votre email" required>
-                    </div>
-            
-                    <div class="user-field">
-                      <span class="user-field-details">Mot de Passe</span>
-                      <input type="text" placeholder="Entrez votre Mot de Passe" required>
-                    </div>
-                    <div class="user-field">
-                      <span class="user-field-details">Nom</span>
-                      <input type="text" placeholder="Entrez votre Nom" required>
-                    </div>
-                    <div class="user-field">
-                      <span class="user-field-details">Prénom</span>
-                      <input type="text" placeholder="Entrez votre Prénom" required>
-                    </div>
-            
-                    <div class="user-field">
-                      <span class="user-field-details">Ville</span>
-                      <input type="text" placeholder="Entrez votre Ville" required>
-                    </div>
-            
-                    <div class="user-field">
-                      <span class="user-field-details">Pays</span>
-                      <div class="select-box">
-                        <select>
-                          <option selected>Belgique</option>
-                          <option>Maroc</option>
-                        </select>
-                      </div>
-                    </div>
-            
-                    <div class="user-field">
-                      <span class="user-field-details">Numéro de Téléphone</span>
-                      <input type="text" placeholder="Entrez votre Numéro de Téléphone" required>
-                    </div>
-            
-                    <div class="user-field">
-                      <span class="user-field-details">Date de Naissance</span>
-                      <input type="date" placeholder="" required>
-                    </div>
-            
-            
-                  </div>
-                  <div class="gender-container">
-                    <input type="radio" name="gender" id="dot-1">
-                    <input type="radio" name="gender" id="dot-2">
-                    <input type="radio" name="gender" id="dot-3">
-                    <span class="gender-title">Genre</span>
-                    <div class="gender-category">
-                      <label for="dot-1">
-                        <span id="dot-1" class="gender-dot homme"></span>
-                        <span class="gender-type">Homme</span>
-                      </label>
-                      <label for="dot-2">
-                        <span class="gender-dot femme"></span>
-                        <span class="gender-type">Femme</span>
-                      </label>
-                      <label for="dot-3">
-                        <span class="gender-dot autre"></span>
-                        <span class="gender-type">Autre</span>
-                      </label>
-                    </div>
-                  </div>
-                  <div class="button">
-                    <input type="submit" value="Modifier">
-                  </div>
-                </form>
-              </div>
-            
-            </div>
-            <!-- END content -->
+          </a>
+          <a href="user.html">
+            <span class="material-symbols-outlined">
+              person
+            </span>
+          </a>
 
         </div>
-        
-        
-        <!-- BEGIN footer -->
-        <footer class="footer_wrapper">
-          <div class="footer-infos">
-            <div class="footer-fields-container">
-              
-              <div class="footer-services">
-                <h2 class="footer-services-name"> services</h2>
-                <ul id="channel-get-started" class="footer-services-list">
-                  <li class="channel-item channel-item-type-post_type channel-item-object-product">
-                    <a href="#">Radio</a>
-                  </li>
-                  <li class="channel-item channel-item-type-post_type channel-item-object-product">
-                    <a href="#"> Replay TV</a>
-                  </li>
-                  <li class="channel-item channel-item-type-post_type channel-item-object-product">
-                    <a href="#">Dernier JT</a>
-                  </li>
-                  <li class="channel-item channel-item-type-post_type channel-item-object-product">
-                    <a href="#"> Podcasts</a>
-                  </li>
-                  <li class="channel-item channel-item-type-post_type channel-item-object-product">
-                    <a href="#"> Mon BX1</a>
-                  </li> 
-                  <li class="channel-item channel-item-type-post_type channel-item-object-product">
-                    <a href="#"> Horaires TV</a>
-                  </li> 
-                </ul>
-              </div>
-            </div>
-            <div class="footer-fields-container">
-              <div class="footer-services">
-                <h2 class="footer-services-name"> thémes</h2>
-                <ul id="channel-company" class="footer-services-list">
-                  <li class="channel-item channel-item-type-post_type channel-item-object-page">
-                    <a href="#">Anderlecht</a>
-                  </li>
-                  <li class="channel-item channel-item-type-taxonomy channel-item-object-category">
-                    <a href="#"> Auderghem</a>
-                  </li>
-                  <li class="channel-item channel-item-type-post_type channel-item-object-page">
-                    <a href="#">Berchem-Sainte-Agathe</a>
-                  </li>
-                  <li class="channel-item channel-item-type-post_type channel-item-object-page">
-                    <a href="#"> Bruxelles-ville</a>
-                  </li>
-                  <li class="channel-item channel-item-type-post_type channel-item-object-page">
-                    <a href="#">  Crainhem</a>
-                  </li>
-                  <li class="channel-item channel-item-type-post_type channel-item-object-page">
-                    <a href="#">   Drogenbos</a>
-                  </li>
-                </ul>
+      </nav>
+
+    </header>
+    <!-- END header -->
+
+
+    <div class="main_wrapper">
+
+      <!-- BEGIN content -->
+      <h2>Mon Profile</h2>
+      <div class="form_container">
+        <div class="user_content">
+          <form action="#">
+            <div class="user-infos">
+              <div class="user-field">
+                <span class="user-field-details">Email</span>
+                <input type="text" placeholder="Entrez votre email" required>
               </div>
 
-            </div>
-            <div class="footer-fields-container">
-              <div class="footer-services">
-                <h2 class="footer-services-name"> plus</h2>
-                    
-                <ul id="channel-quick-links" class="footer-services-list">
-                  <li class="channel-item channel-item-type-custom channel-item-object-custom">
-                    <a target="_blank" rel="noopener noreferrer" href="#">Météo</a>
-                  </li>
-                  <li class="channel-item channel-item-type-custom channel-item-object-custom">
-                    <a target="_blank" rel="noopener noreferrer" href="#">Sport</a>
-                  </li>
-                  <li class="channel-item channel-item-type-post_type channel-item-object-page">
-                    <a href="#">Culture</a>
-                  </li>
-                  <li class="channel-item channel-item-type-post_type channel-item-object-page">
-                    <a href="#">Trafic et travaux</a>
-                  </li>
-                  <li class="channel-item channel-item-type-post_type_archive channel-item-object-customer">
-                    <a href="#">Agenda</a></li>
-                  
-                </ul>
+              <div class="user-field">
+                <span class="user-field-details">Mot de Passe</span>
+                <input type="text" placeholder="Entrez votre Mot de Passe" required>
               </div>
-            </div>
-            <div class="footer-fields-container">
-              <div class="footer_contact_fileds">
-                <h2 class="footer_contact_fileds_title"> Let's Chat</h2>
-                <p class="footer_contact_fileds_description"> Vous avez une question d'assistance ?</p>
-                <a class="footer_contact_fileds_button button" href="#" target="_self"> Prenez contact avec nous </a>
+              <div class="user-field">
+                <span class="user-field-details">Nom</span>
+                <input type="text" placeholder="Entrez votre Nom" required>
               </div>
+              <div class="user-field">
+                <span class="user-field-details">Prénom</span>
+                <input type="text" placeholder="Entrez votre Prénom" required>
+              </div>
+
+              <div class="user-field">
+                <span class="user-field-details">Ville</span>
+                <input type="text" placeholder="Entrez votre Ville" required>
+              </div>
+
+              <div class="user-field">
+                <span class="user-field-details">Pays</span>
+                <div class="select-box">
+                  <select>
+                    <option selected>Belgique</option>
+                    <option>Maroc</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="user-field">
+                <span class="user-field-details">Numéro de Téléphone</span>
+                <input type="text" placeholder="Entrez votre Numéro de Téléphone" required>
+              </div>
+
+              <div class="user-field">
+                <span class="user-field-details">Date de Naissance</span>
+                <input type="date" placeholder="" required>
+              </div>
+
 
             </div>
             
-          </div>
-          
-        </footer>
-        <!-- END footer -->
+            <div class="button">
+              <input type="submit" value="Modifier">
+            </div>
+          </form>
+        </div>
+
+      </div>
+      <!-- END content -->
+
     </div>
-    <!-- END wrapper -->
+
+
+    <!-- BEGIN footer -->
+    <footer class="footer_wrapper">
+      <div class="footer-infos">
+        <div class="footer-fields-container">
+
+          <div class="footer-services">
+            <h2 class="footer-services-name"> services</h2>
+            <ul id="channel-get-started" class="footer-services-list">
+              <li class="channel-item channel-item-type-post_type channel-item-object-product">
+                <a href="#">Radio</a>
+              </li>
+              <li class="channel-item channel-item-type-post_type channel-item-object-product">
+                <a href="#"> Replay TV</a>
+              </li>
+              <li class="channel-item channel-item-type-post_type channel-item-object-product">
+                <a href="#">Dernier JT</a>
+              </li>
+              <li class="channel-item channel-item-type-post_type channel-item-object-product">
+                <a href="#"> Podcasts</a>
+              </li>
+              <li class="channel-item channel-item-type-post_type channel-item-object-product">
+                <a href="#"> Mon BX1</a>
+              </li>
+              <li class="channel-item channel-item-type-post_type channel-item-object-product">
+                <a href="#"> Horaires TV</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-fields-container">
+          <div class="footer-services">
+            <h2 class="footer-services-name"> thémes</h2>
+            <ul id="channel-company" class="footer-services-list">
+              <li class="channel-item channel-item-type-post_type channel-item-object-page">
+                <a href="#">Anderlecht</a>
+              </li>
+              <li class="channel-item channel-item-type-taxonomy channel-item-object-category">
+                <a href="#"> Auderghem</a>
+              </li>
+              <li class="channel-item channel-item-type-post_type channel-item-object-page">
+                <a href="#">Berchem-Sainte-Agathe</a>
+              </li>
+              <li class="channel-item channel-item-type-post_type channel-item-object-page">
+                <a href="#"> Bruxelles-ville</a>
+              </li>
+              <li class="channel-item channel-item-type-post_type channel-item-object-page">
+                <a href="#"> Crainhem</a>
+              </li>
+              <li class="channel-item channel-item-type-post_type channel-item-object-page">
+                <a href="#"> Drogenbos</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="footer-fields-container">
+          <div class="footer-services">
+            <h2 class="footer-services-name"> plus</h2>
+
+            <ul id="channel-quick-links" class="footer-services-list">
+              <li class="channel-item channel-item-type-custom channel-item-object-custom">
+                <a target="_blank" rel="noopener noreferrer" href="#">Météo</a>
+              </li>
+              <li class="channel-item channel-item-type-custom channel-item-object-custom">
+                <a target="_blank" rel="noopener noreferrer" href="#">Sport</a>
+              </li>
+              <li class="channel-item channel-item-type-post_type channel-item-object-page">
+                <a href="#">Culture</a>
+              </li>
+              <li class="channel-item channel-item-type-post_type channel-item-object-page">
+                <a href="#">Trafic et travaux</a>
+              </li>
+              <li class="channel-item channel-item-type-post_type_archive channel-item-object-customer">
+                <a href="#">Agenda</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="footer-fields-container center">
+          <div class="footer_contact_fileds ">
+            <h2 class="footer_contact_fileds_title"> Let's Chat</h2>
+            <p class="footer_contact_fileds_description"> Vous avez une question d'assistance ?</p>
+            <a class="footer_contact_fileds_button button" href="#" target="_self"> Prenez contact avec nous </a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </footer>
+    <!-- END footer -->
+  </div>
+  <!-- END wrapper -->
 
 </body>
 

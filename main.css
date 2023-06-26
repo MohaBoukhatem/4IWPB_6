@@ -313,6 +313,7 @@ header ol li:hover a {
     justify-content: space-between;
     margin: auto;
     position: relative;
+    padding: 0 15px;
 }
 
 .social_media_header {
@@ -336,25 +337,7 @@ header ol li:hover a {
     transition: all 0.2s ease-out;
 }
 
-.social_media_header .tiktok:hover {
-    color: rgb(0, 0, 0);
-}
 
-.social_media_header .instagram:hover {
-    color: rgb(236, 105, 127);
-}
-
-.social_media_header .facebook:hover {
-    color: rgb(59, 89, 152);
-}
-
-.social_media_header .twitter:hover {
-    color: rgb(0, 172, 237);
-}
-
-.social_media_header .youtube:hover {
-    color: rgb(196, 48, 43);
-}
 
 .meteo {
     display: flex;
@@ -457,7 +440,10 @@ header ol li:hover a {
     justify-content: center;
     max-width: 1020px;
     margin: auto;
+    flex-direction: column;
+    align-items: center;
 }
+
 .main-article-wrapper {
     display: flex;
     max-width: 2000px;
@@ -682,6 +668,8 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .footer-fields-container {
@@ -807,14 +795,18 @@ a {
         max-width: 1230px;
         padding: 40px 15px 100px;
         position: relative;
+        align-items: flex-start;
     }
-
+    .center{
+        align-self: center;
+    }
     .footer-wave-svg {
         height: 50px;
     }
 
     .footer-fields-container {
-        width: 24.99%;
+        width: 200px;
+        line-height: 35px;
     }
 }
 
@@ -1022,7 +1014,11 @@ h2.title {
     padding: 10px;
     background: linear-gradient(150deg, #ffffff 65%, #EB1F7C);
 }
-
+.main_wrapper h2{
+    margin: 0 auto;
+    margin-top: 4rem;
+    
+}
 .form_container {
     max-width: 700px;
     width: 100%;
@@ -1030,7 +1026,7 @@ h2.title {
     padding: 25px 30px;
     border-radius: 5px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-    margin: 6rem auto;
+    margin: 1rem auto;
 }
 
 .form_container .my_profile {
@@ -1039,16 +1035,7 @@ h2.title {
     position: relative;
 }
 
-.form_container .my_profile::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 3px;
-    width: 30px;
-    border-radius: 5px;
-    background: linear-gradient(135deg, #ffffff, #EB1F7C);
-}
+
 
 .post_form_container form .user-infos {
     display: flex;
@@ -1074,12 +1061,11 @@ select {
     width: 100%;
     outline: none;
     font-size: 16px;
-    border-radius: 5px;
     padding-left: 15px;
     border: 1px solid #ccc;
-    border-bottom-width: 2px;
     transition: all 0.3s ease;
     background-color: #fff;
+    outline: none;
     color: #484848;
 
 }
@@ -1092,47 +1078,10 @@ select {
 }
 .user-infos .user-field input:focus,
 .user-infos .user-field input:valid {
-    border-color: #EB1F7C;
+    border-color: #24181d;
 }
 
-form .gender-container .gender-title {
-    font-size: 20px;
-    font-weight: 500;
-}
 
-form .gender-category {
-    display: flex;
-    width: 80%;
-    margin: 14px 0;
-    justify-content: space-between;
-}
-
-form .gender-category label {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-
-form .gender-category label .gender-dot {
-    height: 18px;
-    width: 18px;
-    border-radius: 50%;
-    margin-right: 10px;
-    background: #d9d9d9;
-    border: 5px solid transparent;
-    transition: all 0.3s ease;
-}
-
-#dot-1:checked~.gender-category label .homme,
-#dot-2:checked~.gender-category label .femme,
-#dot-3:checked~.gender-category label .autre{
-    background: #EB1F7C;
-    border-color: #d9d9d9;
-}
-
-form input[type="radio"] {
-    display: none;
-}
 
 form .button {
     height: 45px;
@@ -1142,8 +1091,7 @@ form .button {
 form .button input {
     height: 100%;
     width: 100%;
-    border-radius: 5px;
-    border: none;
+    border: 1px solid transparent;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
