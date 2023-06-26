@@ -549,11 +549,6 @@ header ol li:hover a {
 
 @media (max-width:1060px) {
 
-    /* big landscape tablets, laptops, and desktops */
-    .social_media_header {
-        display: none;
-    }
-
     .search_pannel {
         width: 100%;
     }
@@ -566,8 +561,6 @@ header ol li:hover a {
 }
 
 @media (max-width:820px) {
-
-    /* big landscape tablets, laptops, and desktops */
     .meteo ul {
         display: none;
     }
@@ -744,7 +737,6 @@ a {
 /* Media Query For different screens */
 @media (min-width:320px) and (max-width:479px) {
 
-    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
     .footer-infos {
         margin-left: auto;
         margin-right: auto;
@@ -755,7 +747,6 @@ a {
 
 @media (min-width:480px) and (max-width:599px) {
 
-    /* smartphones, Android phones, landscape iPhone */
     .footer-infos {
         margin-left: auto;
         margin-right: auto;
@@ -766,7 +757,6 @@ a {
 
 @media (min-width:600px) and (max-width: 800px) {
 
-    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
     .footer-infos {
         margin-left: auto;
         margin-right: auto;
@@ -774,19 +764,6 @@ a {
         position: relative;
     }
 }
-
-@media (min-width:801px) {
-    /* tablet, landscape iPad, lo-res laptops ands desktops */
-
-}
-
-@media (min-width:1281px) {
-    /* hi-res laptops and desktops */
-
-}
-
-
-
 
 @media (min-width: 760px) {
     .footer-infos {
@@ -810,16 +787,6 @@ a {
     }
 }
 
-@media (min-width: 568px) {
-    /* .footer-fields-container {
-        width: 49.99%;
-    } */
-}
-
-
-/** END footer **/
-
-/** BEGIN miscellaneous **/
 .comments {
     padding: 0 35px 20px;
 }
