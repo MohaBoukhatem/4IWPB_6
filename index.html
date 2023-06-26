@@ -9,118 +9,18 @@
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="main.css">
     <title>Document</title>
 </head>
 
 <body>
-   <h1>test</h1>
     <!-- BEGIN wrapper -->
-    <div class="wrapper" style="margin-top: 50px;">
-        <nav class="top_header" style="max-width: 1020px; margin-bottom: 20px;">
+    <div class="container" style="margin-top: 50px;">
+        <nav class="nav_bar" style="max-width: 1020px; margin-bottom: 20px;">
 
             <div style="display: flex;">
-                <div class="hamburger-menu">
-                    <input id="menu__toggle" type="checkbox" />
-                    <label class="menu__btn" for="menu__toggle">
-                        <span></span>
-                        <p style="position: absolute;top: 45px;">Menu</p>
-                    </label>
-
-
-                    <ul class="menu__box">
-                        <li><a class="menu__item" href="index.html">acceuil</a></li>
-                        <li><a class="menu__item" href="user.html">profile</a></li>
-                        <!-- <li><a class="menu__item" href="#">tv</a></li> -->
-                        <input type="checkbox" id="categorie_check" checked>
-                        <label for="categorie_check" class="categorie">
-                            <h4> tv</h4>
-                            <span class="plus material-symbols-outlined">arrow_drop_down</span>
-                            <span class="moin material-symbols-outlined">arrow_drop_up</span>
-                        </label>
-                        <ul class="sub" id="groupe1">
-                            <li>
-                                <a href="#">Grille des programmes</a>
-                            </li>
-                            <li>
-                                <a href="#">Nos émissions</a>
-                            </li>
-                            <li>
-                                <a href="#">Dernier JT</a>
-                            </li>
-                            <li>
-                                <a href="#">Replay</a>
-                            </li>
-
-                        </ul>
-                        <span style="margin-bottom: 15px;"></span>
-                        <!-- <li><a class="menu__item" href="#">radio et poscast</a></li> -->
-                        <input type="checkbox" id="categorie_check2" checked>
-                        <label for="categorie_check2" class="categorie">
-                            <h4> radio et poscast</h4>
-                            <span class="plus2 material-symbols-outlined">arrow_drop_down</span>
-                            <span class="moin2 material-symbols-outlined">arrow_drop_up</span>
-                        </label>
-                        <ul class="sub2" id="groupe1">
-                            <li>
-                                <a href="#">Direct & replay</a>
-                            </li>
-                            <li>
-                                <a href="#">Grille des programmes</a>
-                            </li>
-                            <li>
-                                <a href="#">Nos podcasts</a>
-                            </li>
-                            <li>
-                                <a href="#">Bonjour Bruxelles</a>
-                            </li>
-                            <li>
-                                <a href="#">Le Brunch</a>
-                            </li>
-                            <li>
-                                <a href="#">Le 12h30</a>
-                            </li>
-                            <li>
-                                <a href="#">En Stoemelings</a>
-                            </li>
-                            <li>
-                                <a href="#">Quartiers</a>
-                            </li>
-
-                        </ul>
-                        <span style="margin-bottom: 15px;"></span>
-                        <li><a class="menu__item" href="#">info</a></li>
-                        <li><a class="menu__item" href="#">agenda</a></li>
-                        <li><a class="menu__item" href="#">concours</a></li>
-                        <li><a class="menu__item" href="#">BX1</a></li>
-                        <li><a class="menu__item" href="#">Publicité</a></li>
-
-
-                    </ul>
-                </div>
-                <div class="search">
-                    <input type="checkbox" id="search_btn">
-                    <label for="search_btn">
-                        <div class="icon_search">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    d="m21 21l-4.343-4.343m0 0A8 8 0 1 0 5.343 5.343a8 8 0 0 0 11.314 11.314Z" />
-                            </svg>
-                        </div>
-                        <span class="close material-symbols-outlined">
-                            close
-                            </span>
-                    </label>
-
-                    <div class="search_pannel">
-                        <div class="form_input">
-                            <label> chercher quoi</label>
-                            <input type="text" placeholder="Rechercher des sujets">
-                        </div>
-                        
-                    </div>
-
-                </div>
                 <a href="#" class="logo">
                     <img src="media/logo.png" alt="">
                 </a>
@@ -134,45 +34,44 @@
                         <span class="meteo__block__date">En ce moment</span>
                         <!-- <span class="meteo__block__icon meteo__block__icon--TJ10" title="light rain">light rain</span> -->
                         <span class="meteo__block__icon material-symbols-outlined">thunderstorm</span>
-                        <span class="meteo__block__temp">27&nbsp;<span>°C</span></span>
+                        <span class="meteo__block__temp">23&nbsp;<span>°C</span></span>
                     </li>
                     <li class="meteo__block2">
                         <span class="meteo__block__date"></span>
                         <!-- <span class="meteo__block__icon meteo__block__icon--TJ4" title="overcast clouds">overcast clouds</span> -->
-                        <span class="meteo__block__icon2 material-symbols-outlined">cloudy_snowing</span>
+                        <span class="material-symbols-outlined">cloudy_snowing</span>                        
                         <span class="meteo__block__temp2">27&nbsp;<span>°C</span></span>
                     </li>
                     <li class="meteo__block2">
                         <span class="meteo__block__date"></span>
                         <!-- <span class="meteo__block__icon meteo__block__icon--TJ4" title="overcast clouds">overcast clouds</span> -->
-                        <span class="meteo__block__icon2 material-symbols-outlined">rainy</span>
+                        <span class="material-symbols-outlined">rainy</span>
                         <span class="meteo__block__temp2">21&nbsp;<span>°C</span></span>
                     </li>
                     <li class="meteo__block2">
                         <span class="meteo__block__date"></span>
                         <!-- <span class="meteo__block__icon meteo__block__icon--TJ4" title="overcast clouds">overcast clouds</span> -->
-                        <span class="meteo__block__icon2 material-symbols-outlined">thunderstorm</span>
+                        <span class="material-symbols-outlined">thunderstorm</span>
                         <span class="meteo__block__temp2">19&nbsp;<span>°C</span></span>
                     </li>
                 </ul>
                 <div class="alert">
-                    <iconify-icon icon="fluent:alert-on-20-regular"></iconify-icon>
+                    <span class="material-symbols-outlined">campaign</span>
                     <span>Alertez-nous !!</span>
                 </div>
             </div>
             
         </nav>
         <!-- BEGIN header -->
-        <header class="header">
+        <header>
 
             <nav class="second_nav">
                 <ol>
-                    <li><a href="#">Advertising</a></li>
-                    <li><a href="#">Entertainment</a></li>
-                    <li><a href="#">Fashion</a></li>
-                    <li><a href="#">Lifestyle</a></li>
-                    <li><a href="#">Pictures</a></li>
-                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">BX1 Radio</a></li>
+                    <li><a href="#">Direct TV</a></li>
+                    <li><a href="#">Dernier JT</a></li>
+                    <li class="active"><a href="#">Agenda</a></li>
                 </ol>
                 <div class="social_media_header">
                     <a href="#">
@@ -186,273 +85,232 @@
                     </a>
                     <a href="#">
                         <iconify-icon class="instagram" icon="akar-icons:instagram-fill"></iconify-icon>
+
                     </a>
+                    <a href="user.html">
+                        <span class="material-symbols-outlined">
+                            person
+                        </span>
+                    </a>
+
                 </div>
-
-
             </nav>
 
         </header>
         <!-- END header -->
         <!-- BEGIN pub gif -->
-        <div class="pub">
-            <img src="media/7956-QmFubmVyLWRlc3N1cy5naWY=.gif" alt="">
+        
+        <div class="publicity">
+            <img src="media/gif.gif" alt="">
         </div>
         <!-- END pub gif -->
-        <div class="main">
-            <!-- BEGIN sidebar -->
-            <aside class="sidebar">
-                
-                <h2>Offre d'emploi</h2>
-                <div class="media">
-                    <figure class="pub1">
-                        <img src="media/pub1.png" alt="logo bx1">
-                    </figure>
-                    <h3>BX1 recherche un/une journaliste Web Master (H/F/X)</h3>
-                </div>
-                <figure class="pub2">
-                    <img src="media/banniere-proces-attentats-bruxelles-560x307.jpg" alt="logo bx1">
-                </figure>
-            </aside>
-            <!-- END sidebar -->
+        <div class="main_wrapper">            
             <!-- BEGIN content -->
-            <div class="content">
+            <div class="post_container">
                 <!-- begin post -->
-                <article class="post">
-                    <div class="new_article">
-                        <h2><a href="article.html">Démission de Pascal Smet : “cela s’est déroulé sous ma responsabilité” </a>
-                            <span class="date"> 18 juin 2023</span>
+                <article class="post_fields">
+                    <div class="post_content">
+                        <h2><a href="article.html">Guerre en Ukraine : un Conseil National de Sécurité s’est penché sur la situation en Russie</a>
+                            <span class="time"> 25 juin 2023</span>
                         </h2>
                     </div>
 
-                    <div class="thumb"><a href="#"><img src="media/post1.png" alt="" /></a></div>
+                    <div class="post-image"><a href="#"><img src="media/Guerre.jpg" alt="" /></a></div>
                 </article>
                 <!-- end post -->
                 <!-- begin post -->
-                <article class="post">
-                    <div class="new_article">
+                <article class="post_fields">
+                    <div class="post_content">
                         <h2><a href="#">
-                                BXL Tour : plus 6.000 de cyclistes au départ de la course </a>
-                            <span class="date">
-                                18 juin 2023</span>
+                            “Connaissez-vous” reçoit James Deano, Guy Cabay et Bahar Kimyongür  </a>
+                            <span class="time">
+                                25 juin 2023</span>
                         </h2>
                     </div>
-                    <div class="thumb"><a href="#"><img src="media/post2.png" alt="" /></a></div>
+                    <div class="post-image"><a href="#"><img src="media/Bahar.jpg" alt="" /></a></div>
                 </article>
                 <!-- end post -->
                 <!-- begin post -->
-                <article class="post">
-                    <div class="new_article">
-                        <h2><a href="#">Big Boss : avec Raphaël Remiche, directeur général de Tempora </a>
-                            <span class="date"> 18 juin 2023</span>
+                <article class="post_fields">
+                    <div class="post_content">
+                        <h2><a href="#">Couleur Café, c’est (presque) fini : l’heure de tirer un premier bilan, en cette dernière soirée </a>
+                            <span class="time"> 25 juin 2023</span>
                         </h2>
                     </div>
 
-                    <div class="thumb"><a href="#"><img src="media/post3.png" alt="" /></a></div>
+                    <div class="post-image"><a href="#"><img src="media/Couleur.jpg" alt="" /></a></div>
                 </article>
                 <!-- end post -->
                 <!-- begin post -->
-                <article class="post">
-                    <div class="new_article">
-                        <h2><a href="#">Les pouvoirs locaux vont être soumis à des règles déontologiques plus
-                                strictes</a>
-                            <span class="date"> 18 juin 2023</span>
+                <article class="post_fields">
+                    <div class="post_content">
+                        <h2><a href="#">Schaerbeek : quand la Cité des Ânes devient, le temps d’un week-end, le village de la cerise</a>
+                            <span class="time"> 25 juin 2023</span>
                         </h2>
                     </div>
 
-                    <div class="thumb"><a href="#"><img src="media/post4.jpg" alt="" /></a></div>
+                    <div class="post-image"><a href="#"><img src="media/Schaerbeek.jpg" alt="" /></a></div>
                 </article>
                 <!-- end post -->
                 <!-- begin post -->
-                <article class="post">
-                    <div class="new_article">
-                        <h2><a href="#">hockey pro league : les Red Lions domptent la Nouvelle-Zéland</a>
-                            <span class="date"> 18 juin 2023</span>
+                <article class="post_fields">
+                    <div class="post_content">
+                        <h2><a href="#">
+                            L’Urban Trail a traversé Bruxelles… et aussi plusieurs monuments emblématiques !</a>
+                            <span class="time"> 25 juin 2023</span>
                         </h2>
                     </div>
 
-                    <div class="thumb"><a href="#"><img src="media/post5.jpg" alt="" /></a></div>
+                    <div class="post-image"><a href="#"><img src="media/L'Urban.jpg" alt="" /></a></div>
                 </article>
                 <!-- end post -->
                 <!-- begin post -->
-                <article class="post">
-                    <div class="new_article">
-                        <h2><a href="#">Après la démission de Pascal Smet, l’opposition met la pressions sur Hadja
-                                Lahbib </a>
-                            <span class="date"> 18 juin 2023</span>
+                <article class="post_fields">
+                    <div class="post_content">
+                        <h2><a href="#">
+                            Hockey : suivez la cérémonie des Sticks d’Or, ce dimanche soir, en direct sur BX1 </a>
+                            <span class="time"> 25 juin 2023</span>
                         </h2>
                     </div>
 
-                    <div class="thumb"><a href="#"><img src="media/post6.jpg" alt="" /></a></div>
+                    <div class="post-image"><a href="#"><img src="media/hockey.jpg" alt="" /></a></div>
                 </article>
                 <!-- end post -->
                 <!-- begin post -->
-                <article class="post">
-                    <div class="new_article">
-                        <h2><a href="#">Fabio Jakobsen s’adjuge la dernière étape du Tour de Belgique </a>
-                            <span class="date"> 18 juin 2023</span>
+                <article class="post_fields">
+                    <div class="post_content">
+                        <h2><a href="#">Procès des attentats : les plaidoiries reprennent ce lundi, avec la suite de la défense de Bilal El Makhoukhi </a>
+                            <span class="time"> 25 juin 2023</span>
                         </h2>
                     </div>
 
-                    <div class="thumb"><a href="#"><img src="media/post7.jpg" alt="" /></a></div>
+                    <div class="post-image"><a href="#"><img src="media/Bilal.jpg" alt="" /></a></div>
                 </article>
                 <!-- end post -->
                 <!-- begin post -->
-                <article class="post">
-                    <div class="new_article">
-                        <h2><a href="#">Arno : un concert-hommage à l’Ancienne Belgique avec de nombreux artistes</a>
-                            <span class="date"> 18 juin 2023</span>
+                <article class="post_fields">
+                    <div class="post_content">
+                        <h2><a href="#">La Fête de la Musique se poursuit, avec des concerts jusqu’à ce dimanche soir</a>
+                            <span class="time"> 25 juin 2023</span>
                         </h2>
                     </div>
 
-                    <div class="thumb"><a href="#"><img src="media/post8.png" alt="" /></a></div>
+                    <div class="post-image"><a href="#"><img src="media/Bruxelle.jpg" alt="" /></a></div>
                 </article>
                 <!-- end post -->
                 <!-- begin post -->
-                <article class="post">
-                    <div class="new_article">
-                        <h2><a href="#">Euro de Basket : les Belgian Cats s’imposent face à l’Italie</a>
-                            <span class="date"> 18 juin 2023</span>
+                <article class="post_fields">
+                    <div class="post_content">
+                        <h2><a href="#">À quelques kilomètres de Bruxelles, il est désormais possible de faire du paddle et du canoë-kayak sur la Senne</a>
+                            <span class="time"> 25 juin 2023</span>
                         </h2>
                     </div>
 
-                    <div class="thumb"><a href="#"><img src="media/post9.jpg" alt="" /></a></div>
+                    <div class="post-image"><a href="#"><img src="media/kayak.jpg" alt="" /></a></div>
                 </article>
                 <!-- end post -->
                 <!-- begin post -->
-                <article class="post">
-                    <div class="new_article">
-                        <h2><a href="#">Hockey Pro League : les Red Panthers battent la Nouvelle-Zélande 7-0 </a>
-                            <span class="date"> 18 juin 2023</span>
+                <article class="post_fields">
+                    <div class="post_content">
+                        <h2><a href="#">À quelques kilomètres de Bruxelles, il est désormais possible de faire du paddle et du canoë-kayak sur la Senne </a>
+                            <span class="time"> 25 juin 2023</span>
                         </h2>
                     </div>
 
-                    <div class="thumb"><a href="#"><img src="media/post10.jpg" alt="" /></a></div>
+                    <div class="post-image"><a href="#"><img src="media/Championships.jpg" alt="" /></a></div>
                 </article>
                 <!-- end post -->
 
                 <!-- begin post navigation -->
-                <div class="read_more">
-                    <div class="center">
-                        <div class="pagination">
-                            <a href="#">&laquo;</a>
-                            <a href="#" class="active">1</a>
-                            <a href="#">2</a>
-                            <a href="#">3</a>
-                            <a href="#">4</a>
-                            <a href="#">&raquo;</a>
-                        </div>
-                    </div>
-                </div>
                 <!-- end post navigation -->
             </div>
             <!-- END content -->
 
         </div>
-        <div class="pub2">
-            <img src="media/4506-QmFubmVyLWJ4MXB1Yi1kZXNzb3VzLmdpZg==.gif" alt="" style="max-height: 250px;
-            max-width: 970px;
-            width: 100%;
-            height: auto;
-            vertical-align: middle;">
-        </div>
+
         <!-- BEGIN footer -->
-        <footer class="pg-footer">
-            <footer class="footer">
-              <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
-                <path class="footer-wave-path" d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z"></path>
-              </svg>
-              <div class="footer-content">
-                <div class="footer-content-column">
+            <footer class="footer_wrapper">
+              <div class="footer-infos">
+                <div class="footer-fields-container">
                   
-                  <div class="footer-menu">
-                    <h2 class="footer-menu-name"> services</h2>
-                    <ul id="menu-get-started" class="footer-menu-list">
-                      <li class="menu-item menu-item-type-post_type menu-item-object-product">
+                  <div class="footer-services">
+                    <h2 class="footer-services-name"> services</h2>
+                    <ul id="channel-get-started" class="footer-services-list">
+                      <li class="channel-item channel-item-type-post_type channel-item-object-product">
                         <a href="#">Radio</a>
                       </li>
-                      <li class="menu-item menu-item-type-post_type menu-item-object-product">
+                      <li class="channel-item channel-item-type-post_type channel-item-object-product">
                         <a href="#"> Replay TV</a>
                       </li>
-                      <li class="menu-item menu-item-type-post_type menu-item-object-product">
+                      <li class="channel-item channel-item-type-post_type channel-item-object-product">
                         <a href="#">Dernier JT</a>
                       </li>
-                      <li class="menu-item menu-item-type-post_type menu-item-object-product">
+                      <li class="channel-item channel-item-type-post_type channel-item-object-product">
                         <a href="#"> Podcasts</a>
                       </li>
-                      <li class="menu-item menu-item-type-post_type menu-item-object-product">
+                      <li class="channel-item channel-item-type-post_type channel-item-object-product">
                         <a href="#"> Mon BX1</a>
                       </li> 
-                      <li class="menu-item menu-item-type-post_type menu-item-object-product">
+                      <li class="channel-item channel-item-type-post_type channel-item-object-product">
                         <a href="#"> Horaires TV</a>
                       </li> 
                     </ul>
                   </div>
                 </div>
-                <div class="footer-content-column">
-                  <div class="footer-menu">
-                    <h2 class="footer-menu-name"> thémes</h2>
-                    <ul id="menu-company" class="footer-menu-list">
-                      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                <div class="footer-fields-container">
+                  <div class="footer-services">
+                    <h2 class="footer-services-name"> thémes</h2>
+                    <ul id="channel-company" class="footer-services-list">
+                      <li class="channel-item channel-item-type-post_type channel-item-object-page">
                         <a href="#">Anderlecht</a>
                       </li>
-                      <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+                      <li class="channel-item channel-item-type-taxonomy channel-item-object-category">
                         <a href="#"> Auderghem</a>
                       </li>
-                      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                      <li class="channel-item channel-item-type-post_type channel-item-object-page">
                         <a href="#">Berchem-Sainte-Agathe</a>
                       </li>
-                      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                      <li class="channel-item channel-item-type-post_type channel-item-object-page">
                         <a href="#"> Bruxelles-ville</a>
                       </li>
-                      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                      <li class="channel-item channel-item-type-post_type channel-item-object-page">
                         <a href="#">  Crainhem</a>
                       </li>
-                      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                      <li class="channel-item channel-item-type-post_type channel-item-object-page">
                         <a href="#">   Drogenbos</a>
                       </li>
                     </ul>
                   </div>
-                  <div class="footer-menu">
-                    <h2 class="footer-menu-name"> Juridique</h2>
-                    <ul id="menu-legal" class="footer-menu-list">
-                      <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
-                        <a href="#">Avis de confidentialité</a>
-                      </li>
-                      <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                        <a href="#">Conditions d'utilisation</a>
-                      </li>
-                    </ul>
-                  </div>
+
                 </div>
-                <div class="footer-content-column">
-                  <div class="footer-menu">
-                    <h2 class="footer-menu-name"> plus</h2>
+                <div class="footer-fields-container">
+                  <div class="footer-services">
+                    <h2 class="footer-services-name"> plus</h2>
                         
-                    <ul id="menu-quick-links" class="footer-menu-list">
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                    <ul id="channel-quick-links" class="footer-services-list">
+                      <li class="channel-item channel-item-type-custom channel-item-object-custom">
                         <a target="_blank" rel="noopener noreferrer" href="#">Météo</a>
                       </li>
-                      <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                      <li class="channel-item channel-item-type-custom channel-item-object-custom">
                         <a target="_blank" rel="noopener noreferrer" href="#">Sport</a>
                       </li>
-                      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                      <li class="channel-item channel-item-type-post_type channel-item-object-page">
                         <a href="#">Culture</a>
                       </li>
-                      <li class="menu-item menu-item-type-post_type menu-item-object-page">
+                      <li class="channel-item channel-item-type-post_type channel-item-object-page">
                         <a href="#">Trafic et travaux</a>
                       </li>
-                      <li class="menu-item menu-item-type-post_type_archive menu-item-object-customer">
+                      <li class="channel-item channel-item-type-post_type_archive channel-item-object-customer">
                         <a href="#">Agenda</a></li>
                       
                     </ul>
                   </div>
                 </div>
-                <div class="footer-content-column">
-                  <div class="footer-call-to-action">
-                    <h2 class="footer-call-to-action-title"> Let's Chat</h2>
-                    <p class="footer-call-to-action-description"> Vous avez une question d'assistance ?</p>
-                    <a class="footer-call-to-action-button button" href="#" target="_self"> Prenez contact avec nous </a>
+                <div class="footer-fields-container">
+                  <div class="footer_contact_fileds">
+                    <h2 class="footer_contact_fileds_title"> Let's Chat</h2>
+                    <p class="footer_contact_fileds_description"> Vous avez une question d'assistance ?</p>
+                    <a class="footer_contact_fileds_button button" href="#" target="_self"> Prenez contact avec nous </a>
                   </div>
 
                 </div>
@@ -460,7 +318,6 @@
               </div>
               
             </footer>
-        </footer>
         <!-- END footer -->
     </div>
     <!-- END wrapper -->
